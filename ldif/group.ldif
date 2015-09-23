@@ -1,0 +1,7 @@
+# Development
+dn: cn=development,ou=Group,dc=FROSK,dc=co,dc=jp
+objectClass: posixGroup
+objectClass: top
+cn: development
+gidNumber: 2000
+memberUid: m_ootaku

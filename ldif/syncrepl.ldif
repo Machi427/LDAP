@@ -1,0 +1,15 @@
+dn: olcDatabase={1}hdb,cn=config
+changetype: modify
+add: olcSyncRepl
+olcSyncRepl: rid=001
+  provider=ldaps://54.65.235.143/
+  bindmethod=simple
+  binddn="cn=admin,dc=FROSK,dc=co,dc=jp"
+  credentials=nGh2i5och
+  searchbase="dc=FROSK,dc=co,dc=jp"
+  scope=sub
+  schemachecking=on
+  retry="30 5 300 3"
+  interval=00:00:05:00
+  
+  

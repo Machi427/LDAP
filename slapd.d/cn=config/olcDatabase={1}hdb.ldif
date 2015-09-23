@@ -1,0 +1,33 @@
+# AUTO-GENERATED FILE - DO NOT EDIT!! Use ldapmodify.
+# CRC32 be83e9c6
+dn: olcDatabase={1}hdb
+objectClass: olcDatabaseConfig
+objectClass: olcHdbConfig
+olcDatabase: {1}hdb
+olcDbDirectory: /var/lib/ldap
+olcSuffix: dc=FROSK,dc=co,dc=jp
+olcAccess: {0}to attrs=userPassword,shadowLastChange by self write by anonymou
+ s auth by dn="cn=admin,dc=FROSK,dc=co,dc=jp" write by * none
+olcAccess: {1}to dn.base="" by * read
+olcAccess: {2}to * by dn="cn=admin,dc=FROSK,dc=co,dc=jp" write by * read
+olcLastMod: TRUE
+olcRootDN: cn=admin,dc=FROSK,dc=co,dc=jp
+olcRootPW:: e1NTSEF9YUlKUFhzTDR5U1VRYUxSbmg3MjZnTjc0b04yeU8wQVY=
+olcDbCheckpoint: 512 30
+olcDbConfig: {0}set_cachesize 0 2097152 0
+olcDbConfig: {1}set_lk_max_objects 1500
+olcDbConfig: {2}set_lk_max_locks 1500
+olcDbConfig: {3}set_lk_max_lockers 1500
+olcDbIndex: objectClass eq
+structuralObjectClass: olcHdbConfig
+entryUUID: f53cb058-f603-1034-978e-75c55ecc02b8
+creatorsName: cn=admin,cn=config
+createTimestamp: 20150923055912Z
+olcSyncrepl:: ezB9cmlkPTAwMSBwcm92aWRlcj1sZGFwczovLzU0LjY1LjIzNS4xNDMvIGJpbmRt
+ ZXRob2Q9c2ltcGxlIGJpbmRkbj0iY249YWRtaW4sZGM9RlJPU0ssZGM9Y28sZGM9anAiIGNyZWRlb
+ nRpYWxzPW5HaDJpNW9jaCBzZWFyY2hiYXNlPSJkYz1GUk9TSyxkYz1jbyxkYz1qcCIgc2NvcGU9c3
+ ViIHNjaGVtYWNoZWNraW5nPW9uIHJldHJ5PSIzMCA1IDMwMCAzIiBpbnRlcnZhbD0wMDowMDowNTo
+ wMCAg
+entryCSN: 20150923060247.338680Z#000000#000#000000
+modifiersName: gidNumber=0+uidNumber=0,cn=peercred,cn=external,cn=auth
+modifyTimestamp: 20150923060247Z
